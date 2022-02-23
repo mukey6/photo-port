@@ -22,6 +22,7 @@ import Nav from './components/Nav';
 import About from './components/About';
 import Gallery from './components/Gallery';
 
+
 function App() {
   const [categories] = useState([
     {
@@ -45,8 +46,6 @@ function App() {
       <main>
         <div>
           <Gallery
-                  categories={categories}
-                  setCurrentCategory={setCurrentCategory}
                   currentCategory={currentCategory}          
           
           ></Gallery>
